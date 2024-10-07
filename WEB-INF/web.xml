@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+ <welcome-file-list>
+ <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <servlet>
+ <description></description>
+ <servlet-name>ExamRegistrationServlet</servlet-name>
+ <servlet-class>jsp.ExamRegistrationServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>ExamRegistrationServlet</servlet-name>
+ <url-pattern>/register</url-pattern>
+ </servlet-mapping>
+</web-app>
